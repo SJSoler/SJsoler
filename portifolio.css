@@ -1,0 +1,122 @@
+main {
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+     
+}
+
+header h1 {
+    text-shadow: 2px 3px 2px rgb(190, 190, 190);
+    font-family: 'Times New Roman', Times, serif;
+    text-size-adjust: center;
+    font-size: 40px;
+}
+
+header h2 {
+    background-color: rgb(177, 181, 185);
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+
+nav {
+    background-color: rgb(119, 123, 136);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: large;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+aside {
+    width: 25%;
+    padding-left: 20px;
+    margin-left: 15px;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(132, 147, 155);
+}
+
+section {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(157, 157, 173);
+    text-align: center;
+    font-style: italic;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-style: italic;
+}
+
+#inicio {
+    padding: 20px;
+}
+
+#projetos {
+    padding: 20px;
+}
+
+#sobre {
+    padding: 20px;
+}
+
+#contato {
+    padding: 30px;
+}
